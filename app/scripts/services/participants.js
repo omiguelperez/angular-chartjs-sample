@@ -10,6 +10,6 @@
 angular.module('angularChartjsSampleApp')
   .service('participants', function ($http) {
   	this.getIncomingBetweenDates = function (fromDate, toDate) {
-  		return $http.get(`http://localhost:3001/api/charts?start_date=${fromDate}&end_date=${toDate}`);
+  		return $http.get(`http://susnor.herokuapp.com/api/charts?start_date=${fromDate}&end_date=${toDate}`);
   	}
   });

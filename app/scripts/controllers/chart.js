@@ -31,13 +31,13 @@ angular.module('angularChartjsSampleApp')
                 label: "Mujeres",
                 backgroundColor: 'rgba(255, 255, 255, 0)',
                 borderColor: 'rgb(255, 99, 122)',
-                data: data.items.map(i => i.filter(p => p.gender == 'Mujer').length),
+                data: data.items.map(i => i.filter(p => p.gender == 'mujer').length),
               },
               {
                 label: "Hombres",
                 backgroundColor: 'rgba(255, 255, 255, 0)',
                 borderColor: 'rgb(99, 255, 122)',
-                data: data.items.map(i => i.filter(p => p.gender == 'Hombre').length),
+                data: data.items.map(i => i.filter(p => p.gender == 'hombre').length),
               }
             ]
           },
