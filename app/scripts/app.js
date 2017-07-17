@@ -36,6 +36,11 @@ angular
         controller: 'ContactCtrl',
         controllerAs: 'contact'
       })
+      .when('/chart', {
+        templateUrl: 'views/chart.html',
+        controller: 'ChartCtrl',
+        controllerAs: 'chart'
+      })
       .otherwise({
         redirectTo: '/'
       });
